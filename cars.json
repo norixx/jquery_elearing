@@ -2,16 +2,19 @@
   {
     "name": "カローラ",
     "type": "セダン",
-    "brand": "TOYOTA"
+    "brand": "TOYOTA",
+    "colors": ["パープル", "メタリックブラック", "ホワイト"]
   },
   {
     "name": "フィット",
     "type": "コンパクト",
-    "brand": "HONDA"
+    "brand": "HONDA",
+    "colors": ["ブルー", "グリーン", "ブラック"]
   },
   {
     "name": "ハイゼット",
-    "type": "軽貨物車",
-    "brand": "ダイハツ"
+    "type": "軽貨物",
+    "brand": "ダイハツ",
+    "colors": ["シルバー", "オレンジ", "ホワイト"]
   }
 ]
