@@ -33,7 +33,7 @@ btn.addEventListener('click', () => {
 function outputHtml(data) {
   let htmlStr = '';
   data.forEach( car => {
-    htmlStr = `<p>${car.name}は${car.brand}の${car.type}車です。</p>`;
+    htmlStr += `<p>${car.name}は${car.brand}の${car.type}タイプの車です。</p>`;
   });
   info.insertAdjacentHTML('beforeend', htmlStr);
 }
