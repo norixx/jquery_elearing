@@ -10,3 +10,5 @@ css/style.css
 /custom
 ajax.html
 /js/ajax.js
+cars*.json
+jsonajax.html
