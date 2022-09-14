@@ -22,7 +22,7 @@ const request = new XMLHttpRequest();
 let counter = 1;
 
 btn.addEventListener('click', () => {
-  request.open('GET', `https://norixx.github.fake/jquery_elearing/cars${counter}.json`);
+  request.open('GET', `https://norixx.github.io/jquery_elearing/cars${counter}.json`);
   request.onload = () => {
     if(request.status >= 200 && request.status < 400) {
       const data = JSON.parse(request.responseText);
