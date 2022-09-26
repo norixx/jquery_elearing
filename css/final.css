@@ -671,7 +671,7 @@ body {
   position: fixed;
   right: 10px;
   top: 10px;
-  background-color: #eee;
+  /* background-color: #eee; */
   z-index: 1;
 }
 
